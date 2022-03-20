@@ -37,5 +37,21 @@
   background-color: #ffffff;
   
 }
+.aboutUs{
+  position: relative;
+}
+.detail{
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  top: 43px;
+  width: 482px;
+  height: 212px;
 
-  
+}
+.aboutUs:hover .detail{
+  display: block;
+}
+.trans:hover:hover{
+  color: rgb(1, 187, 243);
+}
