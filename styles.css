@@ -4,18 +4,38 @@
 }
 .support-customer{
   position: relative;
+}
+.support-customer:hover .support-customer-submenu{
+  display: block;
   
 }
 
-
 .support-customer-submenu{
-  visibility: hidden;
+  display: none;
   top: 33px;
   position: absolute;
   width: 189px;
   height: 85px;
   background-color: #ffffff;
+  
+}
+.followUs{
+  position: relative;
+}
+.followUs:hover .listFollow{
+  display: block;
+  
+}
 
+
+.listFollow{
+  display: none;
+  top: 33px;
+  position: absolute;
+  width: 340px;
+  height: 85px;
+  background-color: #ffffff;
+  
 }
 
   
